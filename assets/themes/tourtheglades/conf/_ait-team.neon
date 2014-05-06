@@ -1,0 +1,12 @@
+description:
+	label: Description
+	type: text
+	default: ''
+phone:
+	label: Phone Number
+	type: text
+	default: ''
+link:
+	label: Link
+	type: text
+	default: '#'

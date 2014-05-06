@@ -1,0 +1,14 @@
+overrideGlobal:
+	label: Use this order
+	type: checkbox
+	default:
+		'yes':
+			label: 'Yes'
+sectionsOrder:
+	type: order
+	default:
+		sectionA: Section A - Content
+		sectionB: Section B - Service Boxes
+		sectionC: Section C - Testimonials
+		sectionD: Section D - Icon Menu
+		sectionE: Section E - Partners

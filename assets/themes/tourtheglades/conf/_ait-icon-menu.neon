@@ -1,0 +1,4 @@
+iconMenuLabelHoverColor:
+	label: Text hover color
+	type: colorpicker
+	default: "#FF0000"

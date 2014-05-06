@@ -1,0 +1,14 @@
+<Files *>
+	Order Allow,Deny
+	Deny from all
+</Files>
+
+<Files ~ "\.(css|js|gif|jpg|png|eot|ttf|woff|svg)">
+	Order Allow,Deny
+	Allow from all
+</Files>
+
+<Files 'ajax-category.php'>
+	Order Allow,Deny
+	Allow from all
+</Files>

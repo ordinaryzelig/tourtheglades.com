@@ -1,0 +1,84 @@
+/*Sliding Text and Icon Menu Style*/
+.sti-menu{
+	width: auto;
+	position:relative;
+	margin: 0px auto 0px auto;
+	list-style: none;
+	padding-bottom: 0px; 
+	/*display: none; */
+}
+.sti-menu li{
+	float:left;
+	margin: 0 1.0%;
+	width:182px;
+	height:220px;
+	-moz-box-shadow: 0 2px 0px 0 rgba(0, 0, 0, 0.1), -1px 0px 0px 0px rgba(0, 0, 0, 0.05)inset, 0px 200px 200px -200px rgba(0,0,0,0.1) inset;
+	box-shadow: 0 2px 0px 0 rgba(0, 0, 0, 0.1), -1px 0px 0px 0px rgba(0, 0, 0, 0.05)inset, 0px 200px 200px -200px rgba(0,0,0,0.1) inset;
+	-webkit-box-shadow: 0 2px 0px 0 rgba(0, 0, 0, 0.1), -1px 0px 0px 0px rgba(0, 0, 0, 0.05)inset, 0px 200px 200px -200px rgba(0,0,0,0.1) inset;
+	-moz-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px; 
+	text-align:center;
+}
+
+.sti-menu li a{
+	display:block;
+	text-align:center;
+	overflow:hidden;
+	height:100%;
+	width:100%;
+	position:relative;
+}
+
+.sti-menu li:first-child  	{ margin-left: 0px; }
+.sti-menu li:last-child  	{ margin-right: 0px; }
+
+.sti-menu li a h3 {
+	font-family: Arial, sans-serif;
+	color:@linksFontColor;
+	font-size:18px;
+	position:absolute;
+	padding: 0px 10px;
+	margin: 0px; 
+	top: 143px;
+	left: 0px;
+	right: 0px;
+	
+}
+.sti-menu li a p {
+	font-family: Arial, sans-serif;
+	font-size:11px;
+	position:absolute;
+	line-height:16px;
+	top:170px;
+	left:0px;
+	right:0px;
+	padding:0px 10px 0;
+	font-weight:normal;
+}
+.sti-icon {
+	display: inline-block;
+	position:relative;
+	background-position:center top;
+	background-repeat:no-repeat;
+	background-color:transparent;
+	left:0;
+	top:23px;
+	padding: 0;
+	-moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
+	padding: 7px;  
+}
+.icon-img			{ 
+	background-color: #FFFFFF !important; 
+	display: inline-block; 
+	text-align: center; 
+    -moz-border-radius: 100%; -webkit-border-radius: 100%; border-radius: 100% ;
+    height: 90px;
+    position: relative;
+    text-align: center;
+    width: 90px;
+    z-index: 10;
+	vertical-align: top; }	
+
+.sti-menu li a span 			 { }
+
+.sti-menu li:hover a h3, 
+.sti-menu li:hover a p { text-shadow: 1px 1px 0px rgba(0,0,0,0.2); }

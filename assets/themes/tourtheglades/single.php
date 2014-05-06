@@ -1,0 +1,14 @@
+<?php
+/**
+ * AIT WordPress Theme
+ *
+ * Copyright (c) 2013, Affinity Information Technology, s.r.o. (http://ait-themes.com)
+ */
+$latteParams['post'] = WpLatte::createPostEntity($GLOBALS['wp_query']->post, array('meta' => $GLOBALS['pageOptions']));
+$latteParams['post']->classes = implode(' ', get_post_class());
+
+ob_start();
+comments_template('');
+ob_get_clean();
+
+WpLatte::createTemplate(basename(__FILE__, '.php'), $latteParams)->render();

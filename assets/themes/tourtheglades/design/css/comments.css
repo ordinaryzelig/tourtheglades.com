@@ -1,0 +1,69 @@
+/* COMMENTS :: START */
+
+#comments                      	{ clear: both; position:relative; margin: 30px 0px 60px 0px; }
+#comments  article.comment	    { padding: 20px; -moz-box-shadow: 0 -1px 0 0 rgba(0, 0, 0, 0.1), -1px 0 0 0 rgba(0, 0, 0, 0.05) inset, 0 1px 0 #FFFFFF inset; box-shadow: 0 -1px 0 0 rgba(0, 0, 0, 0.1), -1px 0 0 0 rgba(0, 0, 0, 0.05) inset, 0 1px 0 #FFFFFF inset; 
+							     -webkit-box-shadow: 0 -1px 0 0 rgba(0, 0, 0, 0.1), -1px 0 0 0 rgba(0, 0, 0, 0.05) inset, 0 1px 0 #FFFFFF inset;}
+
+#comments #comments-title		{ margin: 0px 0px 25px 60px; font-weight: normal;}
+#comments #comments-title span	{ font-weight: normal; text-transform: none;}
+#comments ol.commentlist > li		{ -moz-border-radius: 7px; border-radius: 7px; -webkit-border-radius: 7px; -moz-box-shadow:0 2px 0 rgba(0, 0, 0, 0.1) !important;box-shadow: 0 2px 0 rgba(0, 0, 0, 0.1) !important;
+								  -webkit-box-shadow: 0 2px 0 rgba(0, 0, 0, 0.1) !important;
+								  margin-bottom: 20px; overflow: hidden; }
+#comments ol.commentlist            	{ padding: 0px 0px 0px 0px; }
+#comments ol.commentlist                { margin: 0px 0px 0px 0px; margin-bottom: 60px;}
+#comments ol.commentlist ul       	{ list-style: none; padding: 0px; margin-bottom: 0px; }
+#comments ol.commentlist li         	{ list-style: none; padding: 0px; padding-bottom: 0px; -moz-box-shadow: -1px 0px 0px 0px  rgba(0,0,0,0.1);box-shadow: -1px 0px 0px 0px rgba(0,0,0,0.1); -webkit-box-shadow: -1px 0px 0px 0px  rgba(0,0,0,0.1);}
+#comments a.comment-date			{ margin-left:10px ; padding-left:10px;}
+#comments a.comment-date:hover	{ text-decoration: none; }
+#comments .comment-links			{ display: block; position: absolute; top: 0px; right: 0px; line-height: normal; z-index: 1;}
+#comments .comment-links	:after	{ content: "."; display: block; height: 0; overflow:hidden; clear: both; visibility: hidden; }
+#comments .edit-link a		 	{ color:#ff8400; margin-left: 10px; }
+#comments .edit-link				{ background: none; box-shadow: none; font-size: 12px; }
+#comments .edit-link	a,
+#comments .reply a               		{ text-transform:uppercase; }
+#comments .reply span			{ display: none; }
+
+#comments .comment-text:after	{ content: "."; display: block; height: 0; overflow:hidden; clear: both; visibility: hidden; }
+#comments .comment-text			{ position:relative; }
+#comments .comment-content      	{ display: block;  width:90%; float:right; }
+#comments .comment-avatar		{ display: block; float: left;  }
+#comments .comment-avatar img	{ border-radius: 0px; border: 4px solid #fff; -moz-box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.2); box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.2); -webkit-box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.2);}
+#comments ul.children .comment-avatar img { margin-left: 28px; }
+#comments label span              		{ font-size: 11px; font-weight: normal; }
+#comments textarea                 		{ display: block; width: 100%; height: 111px; }
+#comments p                     	    		{ position: relative;  margin-bottom: 0px; margin-top: 10px;  }
+#comments ol li #respond					{  padding: 20px;  box-shadow: -1px 0 0 0 rgba(0, 0, 0, 0.05) inset; margin-top: 0px;  }
+#comments ol li li #respond					{  padding-left: 48px; }
+#comments ol li #respond p.form-submit 		{ right: 20px; bottom: 45px; }
+#comments ol li #respond #reply-title small { top: 35px; right: 20px; }
+
+#respond						{ position: relative; margin: 20px 0;  }
+#respond li #reply-title           	{ position: relative; }
+#respond li #reply-title small		{ position: absolute; top: 10px; right: 10px;  }
+#respond p.form-submit			{ margin: 0px; position: absolute; bottom: 25px; right: 0px; }
+#respond #reply-title      		{ font-size: 20px;  float: left;  margin-bottom: 0; margin-right: 38px;}    
+#respond #reply-title small		{ width: 90px; position: absolute; right: 0; top: 15; text-align: center; font-size: 12px; z-index: 100; }
+#respond #reply-title small a		{ color: #ff8400; text-transform: uppercase; }
+#respond #submit             			{ width: 90px; height: 90px; font-size:20px; color: #fff; padding: 0px; cursor: pointer; display: inline; border: 5px solid #f2f2f2; text-shadow: 1px 1px 1px rgba (0,0,0,0.15);
+								  background-clip: padding-box !important; -moz-box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.15);box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.15);-webkit-box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.15); }
+#respond #submit:hover			{ text-decoration:none; }
+#respond label					{ position: absolute; padding-left: 8px; }
+#respond input,
+#respond textarea       			{ color: #636363; display: block; font-family: 'Arial', sans-serif; font-size: 12px; margin: 0px; padding: 8px; text-transform: uppercase; }
+#respond input					{ width: 160px; }
+#respond textarea 				{ width: 100%; -moz-box-sizing: border-box; box-sizing: border-box;-webkit-box-sizing: border-box; }
+#respond .logged-in-as,
+#respond .comment-notes			{ margin-top: 0px; padding: 11px 0px 21px; }
+#respond .comment-form-comment textarea { height: 129px; }
+#respond .comment-form-author label, #respond .comment-form-email label,#respond .comment-form-url label,
+#respond .comment-form-comment label   { width: 65px; display: block; font-size: 13px; font-weight: bold; line-height: 30px; }
+#respond .comment-form-author, #respond .comment-form-email, 
+#respond .comment-form-url		{ clear: left; float: left; margin-bottom: 15px; margin-top: 0px; width: 200px;}
+#respond .comment-form-comment	{ margin: 0 110px 5px 200px; z-index:0;  }
+#respond .comment-form-comment:hover { z-index:1;}	
+.logged-in #respond .comment-form-comment { margin-left: 0px; }
+#respond .form-allowed-tags		{ display: none; }
+#respond .form-allowed-tags code	{ display: block; font-size: 11px; line-height: 16px; }
+#respond .required		{ color: #ff8400; }
+
+/* COMMENTS :: END */

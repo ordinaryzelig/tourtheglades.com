@@ -1,0 +1,23 @@
+overrideGlobal:
+	label: Use these settings
+	type: checkbox
+	default:
+		'yes':
+			label: 'Yes'
+sliderDisplay:
+	label: Show
+	type: radio
+	default:
+		true:
+			label: 'Yes'
+			checked: true
+		false:
+			label: 'No'
+sliderAliases:
+	label: Revolution slider
+	type: dropdown-slider-aliases
+	default: default-slider
+sliderAlternative:
+	label: Slider alternative
+	type: image-url
+	default: ''
