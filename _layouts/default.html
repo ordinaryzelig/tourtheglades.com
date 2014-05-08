@@ -57,21 +57,24 @@
 						<div id="mainmenu-dropdown-duration" style="display: none;">200</div>
 						<div id="mainmenu-dropdown-easing" style="display: none;">swing</div>
 						<span class="menubut bigbut">Main Menu</span>
-<nav class="mainmenu"><ul id="menu-menu" class="menu"><li id="menu-item-70" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-5 current_page_item menu-item-70"><a href="{{ site.baseurl }}/">Home</a></li>
-    <li id="menu-item-66" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-66"><a href="{% post_url 2014-01-01-about-us %}">About Us</a></li>
-<li id="menu-item-103" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-103"><a href="#">Our Trips</a>
-<ul class="sub-menu">
-  <li id="menu-item-107" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-107"><a href="{{ site.baseurl }}/everglades-backcountry-kayak-tour/">Back Country Kayak Tour</a></li>
-	<li id="menu-item-106" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-106"><a href="{{ site.baseurl }}/hiking-trip/">Wilderness Hiking Trip</a></li>
-	<li id="menu-item-104" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-104"><a href="{{ site.baseurl }}/journey-to-the-10000-islands/">Journey To The 10,000 Islands</a></li>
-	<li id="menu-item-126" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-126"><a href="{{ site.baseurl }}/overnight-camping-in-the-10000-islands/">Overnight Island Camping</a></li>
-	<li id="menu-item-108" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-108"><a href="{{ site.baseurl }}/fossil-expedition/">Fossil Expedition</a></li>
-</ul>
-</li>
-<li id="menu-item-118" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-118"><a href="{{ site.baseurl }}/meeting-points/">Meeting Points</a></li>
-<li id="menu-item-67" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-67"><a href="{{ site.baseurl }}/concierge-services/">Our Favorites</a></li>
-<li id="menu-item-68" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-68"><a href="{{ site.baseurl }}/contact-us/">Contact Us</a></li>
-</ul></nav>
+<nav class="mainmenu">
+  <ul id="menu-menu" class="menu">
+    <li id="menu-item-70" class="menu-item menu-item-type-post_type menu-item-object-page {% if page.url == '/index.html' %}current-menu-item{% endif %} page_item page-item-5 menu-item-70"><a href="{{ site.baseurl }}/">Home</a></li>
+    <li id="menu-item-66" class="menu-item menu-item-type-post_type menu-item-object-page {% if page.url == '/about-us.html' %}current-menu-item{% endif %}menu-item-66"><a href="{% post_url 2014-01-01-about-us %}">About Us</a></li>
+    <li id="menu-item-103" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-103"><a href="#">Our Trips</a>
+      <ul class="sub-menu">
+        <li id="menu-item-107" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-107"><a href="{{ site.baseurl }}/everglades-backcountry-kayak-tour/">Back Country Kayak Tour</a></li>
+        <li id="menu-item-106" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-106"><a href="{{ site.baseurl }}/hiking-trip/">Wilderness Hiking Trip</a></li>
+        <li id="menu-item-104" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-104"><a href="{{ site.baseurl }}/journey-to-the-10000-islands/">Journey To The 10,000 Islands</a></li>
+        <li id="menu-item-126" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-126"><a href="{{ site.baseurl }}/overnight-camping-in-the-10000-islands/">Overnight Island Camping</a></li>
+        <li id="menu-item-108" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-108"><a href="{{ site.baseurl }}/fossil-expedition/">Fossil Expedition</a></li>
+      </ul>
+    </li>
+    <li id="menu-item-118" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-118"><a href="{{ site.baseurl }}/meeting-points/">Meeting Points</a></li>
+    <li id="menu-item-67" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-67"><a href="{{ site.baseurl }}/concierge-services/">Our Favorites</a></li>
+    <li id="menu-item-68" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-68"><a href="{{ site.baseurl }}/contact-us/">Contact Us</a></li>
+  </ul>
+</nav>
 
 						
 					</div>
