@@ -49,7 +49,6 @@
 </head>
 
 <body class="home page page-id-5 page-template page-template-homepage-php" data-themeurl="{{ site.baseurl }}/assets/themes/tourtheglades">
-  {{ page.url }}
 	<div class="mainpage">
 		<div class="main-container">
 			<div id="fixedmenu-container">
@@ -61,7 +60,7 @@
 <nav class="mainmenu">
   <ul id="menu-menu" class="menu">
     <li id="menu-item-70" class="menu-item menu-item-type-post_type menu-item-object-page {% if page.url == '/index.html' %}current-menu-item{% endif %} page_item page-item-5 menu-item-70"><a href="{{ site.baseurl }}/">Home</a></li>
-    <li id="menu-item-66" class="menu-item menu-item-type-post_type menu-item-object-page {% if page.url == '/about-us.html' %}current-menu-item{% endif %}menu-item-66"><a href="{{ site.baseurl }}{% post_url 2014-01-01-about-us %}">About Us</a></li>
+    <li id="menu-item-66" class="menu-item menu-item-type-post_type menu-item-object-page {% if page.url == '/about-us' %}current-menu-item{% endif %} menu-item-66"><a href="{{ site.baseurl }}{% post_url 2014-01-01-about-us %}">About Us</a></li>
     <li id="menu-item-103" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-103"><a href="#">Our Trips</a>
       <ul class="sub-menu">
         <li id="menu-item-107" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-107"><a href="{{ site.baseurl }}{% post_url 2014-01-01-everglades-backcountry-kayak-tour %}">Back Country Kayak Tour</a></li>
@@ -71,9 +70,9 @@
         <li id="menu-item-108" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-108"><a href="{{ site.baseurl }}{% post_url 2014-01-01-fossil-expedition %}">Fossil Expedition</a></li>
       </ul>
     </li>
-    <li id="menu-item-118" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-118"><a href="{{ site.baseurl }}/meeting-points/">Meeting Points</a></li>
-    <li id="menu-item-67" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-67"><a href="{{ site.baseurl }}/concierge-services/">Our Favorites</a></li>
-    <li id="menu-item-68" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-68"><a href="{{ site.baseurl }}/contact-us/">Contact Us</a></li>
+    <li id="menu-item-118" class="menu-item menu-item-type-post_type menu-item-object-page {% if page.url == '/meeting-points' %}current-menu-item{% endif %} menu-item-118"><a href="{{ site.baseurl }}{% post_url 2014-01-01-meeting-points %}">Meeting Points</a></li>
+    <li id="menu-item-67" class="menu-item menu-item-type-post_type menu-item-object-page {% if page.url == '/concierge-services' %}current-menu-item{% endif %} menu-item-67"><a href="{{ site.baseurl }}{% post_url 2014-01-01-concierge-services %}">Our Favorites</a></li>
+    <li id="menu-item-68" class="menu-item menu-item-type-post_type menu-item-object-page {% if page.url == '/contact-us' %}current-menu-item{% endif %} menu-item-68"><a href="{{ site.baseurl }}{% post_url 2014-01-01-contact-us %}">Contact Us</a></li>
   </ul>
 </nav>
 
