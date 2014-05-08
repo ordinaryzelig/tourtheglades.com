@@ -24,8 +24,8 @@
   {% endif %}
 
   <div class="grey-bg">
-    {% if page.breadcrumbs %}
+    {% unless page.animation %}
       {% include breadcrumbs.html %}
-    {% endif %}
+    {% endunless %}
   </div>
 </div>
