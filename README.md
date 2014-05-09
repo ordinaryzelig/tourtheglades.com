@@ -9,4 +9,5 @@ The form submits to a [sinatra app] (https://github.com/tourtheglades/tourthegla
 
 ## TODO
 
-* change baseurl to TLD
+* change baseurl to domain
+* change Access-Control-Allow-Origin to domain
