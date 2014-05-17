@@ -1319,7 +1319,7 @@ a.trademark {
 
 .mainmenu ul ul {
   background: #ffffff;
-  width: 215px;
+  width: 275px;
   display: none;
   position: absolute;
   top: 46px;
@@ -1334,7 +1334,7 @@ a.trademark {
 }
 
 .mainmenu li li {
-  width: 215px;
+  width: 275px;
   height: 30px;
   float: none;
   font-size: 12px;
