@@ -16,6 +16,10 @@ Tags: light, gray, white, one-column, two-columns, right-sidebar, flexible-width
  * *********************************** */
 
 
+.contact-info {
+  margin-left: 20%;
+}
+
 .frame .wpcf7 form {
   padding-top: 0px;
   padding-bottom: 5px;
@@ -6595,4 +6599,3 @@ h2.widget-title a:hover {
     float: none !important;
   }
 }
-
