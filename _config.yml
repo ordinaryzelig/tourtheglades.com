@@ -1,4 +1,4 @@
-baseurl: http://ordinaryzelig.github.io/tourtheglades.com
+baseurl: http://pantherkey.github.io/tourtheglades.com
 permalink: /:title
 exclude:
   - CNAME
