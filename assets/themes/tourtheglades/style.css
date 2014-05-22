@@ -1024,7 +1024,7 @@ a.trademark {
 }
 
 .social-icons {
-  margin: 35px 0px 0 0px;
+  margin: 50px 0px 0 0px;
   padding-right: 3px;
 }
 
@@ -1076,8 +1076,8 @@ a.trademark {
   background-size: cover;
   display: block;
   font-size: 0;
-  width: 96px;
-  height: 96px;
+  width: 60px;
+  height: 60px;
   text-indent: -9999px;
   position: relative;
   -webkit-border-radius: 100px;
