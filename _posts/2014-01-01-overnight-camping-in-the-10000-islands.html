@@ -36,27 +36,6 @@ Please contact us with your details for pricing.  ie&#8230;number of people in y
 
           </p>
 
-		<style type='text/css'>
-			#gallery-1 {
-				margin: auto;
-			}
-			#gallery-1 .gallery-item {
-				float: left;
-				margin-top: 10px;
-				text-align: center;
-				width: 33%;
-			}
-			#gallery-1 img {
-				border: 2px solid #cfcfcf;
-			}
-			#gallery-1 .gallery-caption {
-				margin-left: 0;
-			}
-			#gallery-1 .gallery-item.facebook {
-        top: 60px;
-        font-size: 15px;
-      }
-		</style>
 		<!-- see gallery_shortcode() in wp-includes/media.php -->
 		<div id='gallery-1' class='gallery galleryid-197 gallery-columns-3 gallery-size-thumbnail'><dl class='gallery-item'>
 			<dt class='gallery-icon'>
@@ -107,9 +86,7 @@ Please contact us with your details for pricing.  ie&#8230;number of people in y
 				<a href='{{ site.baseurl }}/assets/uploads/2013/09/TTG_026.jpg' title='TTG_026'><img width="150" height="150" src="{{ site.baseurl }}/assets/uploads/2013/09/TTG_026-150x150.jpg" class="attachment-thumbnail" alt="TTG_026" /></a>
 			</dt></dl>
       
-			<dl class='gallery-item facebook'><dt>
-        <a href="https://www.facebook.com/TourTheGlades"><div>See more photos on our Facbook page</div></a>
-			</dt></dl>
+      {% include facebook_gallery_icon.html %}
 		</div>
 
 <p>&nbsp;</p>

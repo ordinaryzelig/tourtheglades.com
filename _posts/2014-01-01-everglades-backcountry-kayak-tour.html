@@ -61,27 +61,6 @@ A full moon will accentuate either one of these adventures so check your calenda
 </div>
 <p><span style="color: #000000;"> </span></p>
 <p><span style="color: #000000;">
-		<style type='text/css'>
-			#gallery-1 {
-				margin: auto;
-			}
-			#gallery-1 .gallery-item {
-				float: left;
-				margin-top: 10px;
-				text-align: center;
-				width: 33%;
-			}
-			#gallery-1 img {
-				border: 2px solid #cfcfcf;
-			}
-			#gallery-1 .gallery-caption {
-				margin-left: 0;
-			}
-			#gallery-1 .gallery-item.facebook {
-        top: 60px;
-        font-size: 15px;
-      }
-		</style>
 		<!-- see gallery_shortcode() in wp-includes/media.php -->
 		<div id='gallery-1' class='gallery galleryid-93 gallery-columns-3 gallery-size-thumbnail'><dl class='gallery-item'>
 			<dt class='gallery-icon'>
@@ -135,9 +114,7 @@ A full moon will accentuate either one of these adventures so check your calenda
 			<dt class='gallery-icon'>
 				<a href='{{ site.baseurl }}/assets/uploads/2013/06/005.jpg' title='005'><img width="150" height="150" src="{{ site.baseurl }}/assets/uploads/2013/06/005-150x150.jpg" class="attachment-thumbnail" alt="005" /></a>
 			</dt></dl>
-			<dl class='gallery-item facebook'><dt>
-        <a href="https://www.facebook.com/TourTheGlades"><div>See more photos on our Facbook page</div></a>
-			</dt></dl>
+      {% include facebook_gallery_icon.html %}
 			<br style='clear: both;' />
 		</div>
 </p>
