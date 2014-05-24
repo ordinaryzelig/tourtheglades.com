@@ -1,0 +1,6 @@
+<div id='gallery-1' class='gallery galleryid-197 gallery-columns-3 gallery-size-thumbnail'>
+  {% for asset_path in site.data.gallery_motorboat_tours.images %}
+    {% include gallery_item.html asset_path=asset_path %}
+  {% endfor %}
+  {% include facebook_gallery_icon.html %}
+</div>
