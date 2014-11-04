@@ -17,6 +17,10 @@ The form submits to a [sinatra app] (https://github.com/tourtheglades/tourthegla
 * Press the green `Commit changes` button.
 * Give github a few minutes to update your changes.
 
+## Development
+
+`jekyll serve --baseurl=""`
+
 ## TODO
 
 * change Access-Control-Allow-Origin to domain
