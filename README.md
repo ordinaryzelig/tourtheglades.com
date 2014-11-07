@@ -19,7 +19,7 @@ The form submits to a [sinatra app] (https://github.com/tourtheglades/tourthegla
 
 ## Development
 
-`jekyll serve --baseurl=""`
+`rake` starts server
 
 ## TODO
 
