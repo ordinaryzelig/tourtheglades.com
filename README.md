@@ -21,6 +21,13 @@ The form submits to a [sinatra app] (https://github.com/tourtheglades/tourthegla
 
 `rake` starts server
 
+### Image galleries
+
+* Each image needs a thumbnail. When clicked, it will open a modal showing full-size.
+* Each gallery needs a data file that lists the full-size images.
+* Each gallery needs an includes file which iterates over data.
+* Open each image in Photos, crop with square aspect, export with 150x150, name file with `-150x150` suffix.
+
 ## TODO
 
 * change Access-Control-Allow-Origin to domain
