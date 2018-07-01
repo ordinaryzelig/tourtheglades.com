@@ -1,0 +1,11 @@
+.guide .picture, .guide .bio {
+  display: inline-block;
+  padding: 5px;
+  width: 48%;
+  vertical-align: top;
+  text-align: justify;
+}
+
+.guide {
+  margin-bottom: 10px;
+}
